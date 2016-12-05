@@ -1,5 +1,6 @@
-var apiAccess = require('../src/api-access.js');
-var expect = chai.expect;
+//var apiAccess = require('../src/api-access.js');
+var chai = require('chai'),
+    expect = chai.expect;
 
 describe('api access', function(){
     var getParams = {

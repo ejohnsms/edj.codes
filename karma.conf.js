@@ -30,7 +30,7 @@ module.exports = function(config) {
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
         'src/*.js': ['eslint', 'babel'],
-        'test/*spec.js': ['babel','coverage']
+        'test/*spec.js': ['eslint', 'babel','coverage']
     },
 
 
