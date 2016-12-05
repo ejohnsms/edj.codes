@@ -1,13 +1,15 @@
 var apiAccess = require('../src/api-access.js');
+var expect = chai.expect;
 
 describe('api access', function(){
     var getParams = {
         url: '/some/url'
     };
 
-    it('has a url', function() {
-        var params = {};
+    it('has a url property', function() {
 
-        apiAccess.open(params);
+        expect(getParams.url).to.be.a('string');
+        expect(getParams).to.include.keys('url');
+        expect(getParams.url).to.equal('/some/url');
     });
 });
