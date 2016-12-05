@@ -1,0 +1,52 @@
+{
+  "name": "edj.codes",
+  "version": "0.0.1",
+  "description": "portfolio site",
+  "main": "src/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-transform-es2015-modules-umd": "^6.18.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.11.1",
+    "istanbul": "^0.4.5",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^1.1.1",
+    "karma-eslint": "^2.1.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-sinon": "^1.0.5",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6",
+    "webpack": "^1.13.3"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --log-level debug --single-run",
+    "watch": "./node_modules/.bin/karma start",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejohnsms/edj.codes.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "eduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejohnsms/edj.codes/issues"
+  },
+  "homepage": "https://github.com/ejohnsms/edj.codes#readme"
+}
